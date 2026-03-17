@@ -1,0 +1,55 @@
+run_random: true
+run_reinforce: true
+run_dqn: true
+seeds : [1,2,3,4,5,6,7,8,9,0]
+gammas : [0.9, 0.99]
+lrs : [0.1, 0.01, 0.001]
+
+
+env:
+  grid_rows: 5
+  grid_cols: 5
+  max_steps: 40
+  start_row: 4
+  start_col: 0
+  goal_row: 0
+  goal_col: 4
+  trap_row: 1
+  trap_col: 3
+  step_penalty: -0.05
+  trap_penalty: -2.0
+  invalid_penalty: -0.2
+  goal_reward: 10.0
+
+random:
+  #seed: 42
+  num_episodes: 100
+  max_steps: 40
+
+reinforce:
+  #seed: 0
+  num_episodes: 250
+  max_steps: 50
+  # lr: 0.01
+  # gamma: 0.99
+  log_every: 50
+  eval_episodes: 50
+  model:
+    hidden_dim: 64
+
+dqn:
+  #seed: 0
+  num_episodes: 250
+  max_steps: 50
+  # learning_rate: 0.001
+  # gamma: 0.99
+  buffer_capacity: 2500
+  batch_size: 32
+  warmup_steps: 100
+  target_update_freq: 100
+  epsilon_start: 1.0
+  epsilon_end: 0.1
+  epsilon_decay_episodes: 100
+  log_every: 50
+  model:
+    hidden_dim: 64

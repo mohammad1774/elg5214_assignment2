@@ -1,0 +1,3 @@
+seed,algorithm,learning_rate,gamma,final_mean_reward,final_success_rate,backend,devices,action,mean_length,wall_time_s
+5,REINFORCE,0.1,0.99,8.723750114440918,1.0,GPU,['cuda:0'],stochastic,12.664999961853027,152.09569316700072
+5,REINFORCE,0.1,0.99,-7.399999618530273,0.0,GPU,['cuda:0'],greedy,40.0,152.09569316700072

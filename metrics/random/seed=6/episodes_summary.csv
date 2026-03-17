@@ -1,0 +1,2 @@
+seed,algorithm,learning_rate,gamma,final_mean_reward,final_success_rate,backend,devices,action,mean_length,wall_time_s
+6,RandomAgent,0.0,0.0,-3.815500497817993,0.14999999105930328,GPU,['cuda:0'],random,38.56999969482422,3.223173485999723

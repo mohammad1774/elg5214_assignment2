@@ -1,0 +1,2 @@
+seed,algorithm,learning_rate,gamma,final_mean_reward,final_success_rate,backend,devices,action,mean_length,wall_time_s
+0,DQN,0.001,0.9,-2.0,0.0,GPU,['cuda:0'],greedy,40.0,337.3351315339969
