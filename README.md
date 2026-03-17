@@ -3,7 +3,7 @@
 **Course:** ELG5214 / CSI5340 — Introduction to Deep Reinforcement Learning  
 **University of Ottawa — Winter 2026**  
 **Author:** Mohammad (Student No: 300480272)  
-**Repository:** [github.com/mohammad1774/Introduction_deep_RL_ELG5214](https://github.com/mohammad1774/Introduction_deep_RL_ELG5214)
+**Repository:** [[github.com/mohammad1774/elg5214_assignment2](https://github.com/mohammad1774/elg5214_assignment2)]https://github.com/mohammad1774/elg5214_assignment2
 
 ---
 
@@ -26,7 +26,7 @@ DQN with lr=0.01 and γ=0.9 achieved perfect goal-reaching success (100%), while
 ## 🗂️ Project Structure
 
 ```
-assignment2/
+/
 ├── init.sh                        # A master file which will run the whole project 
 ├──                                 from environment to plots
 ├── config.yaml                    # Centralized hyperparameter configuration
@@ -133,8 +133,8 @@ S = Start (4,0)    G = Goal (0,4)    ███ = Obstacle    T = Trap (1,3)
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohammad1774/Introduction_deep_RL_ELG5214.git
-cd Introduction_deep_RL_ELG5214/assignment2
+git clone https://github.com/mohammad1774/elg5214_assignment2
+cd elg5214_assignment2
 
 # Run the init script
 bash init.sh True #if you want with dependencies installation 
