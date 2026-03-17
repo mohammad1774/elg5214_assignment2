@@ -3,7 +3,7 @@
 **Course:** ELG5214 / CSI5340 — Introduction to Deep Reinforcement Learning  
 **University of Ottawa — Winter 2026**  
 **Author:** Mohammad (Student No: 300480272)  
-**Repository:** [[github.com/mohammad1774/elg5214_assignment2](https://github.com/mohammad1774/elg5214_assignment2)]https://github.com/mohammad1774/elg5214_assignment2
+**Repository:** [github.com/mohammad1774/elg5214_assignment2]https://github.com/mohammad1774/elg5214_assignment2
 
 ---
 
